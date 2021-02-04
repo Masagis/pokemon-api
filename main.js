@@ -1,5 +1,5 @@
 // onload
-fetch('https://pokeapi.co/api/v2/pokemon?offset=10&limit=10')
+fetch('https://pokeapi.co/api/v2/pokemon?limit=1118')
     .then(
         function (respone) {
             if (respone.status != 200) {
